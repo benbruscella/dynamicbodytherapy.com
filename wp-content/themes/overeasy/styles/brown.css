@@ -1,0 +1,237 @@
+/*
+=== BROWN ===
+bg: #eceadb
+links: #cd802a
+intro: #50473e
+footer: #d6d4c1
+titles: #c5c1a3
+widgets: #e0decf
+*/
+
+/*=== Setup ===*/
+body{
+	background: url(brown/bgr.gif) #eceadb repeat-x top;
+	color: #555555;
+}
+a{
+	color: #cd802a;
+}
+input,select,textarea{
+	border: #e6e6e6 1px solid;
+}
+h2{
+	color: #262625;
+}
+h2 a{
+	color: #262625
+}
+h3{
+	color: #262625;
+}
+h4{
+	color: #444444;
+}
+
+/*=== Intro ===*/
+p.intro a {
+	color:#FFFFFF;
+}
+p.intro a:hover {
+	color:#222222;
+}
+
+/*=== Buttons ===*/
+
+.btn-rounded a{
+	background: url(brown/btn-rounded.gif) no-repeat left;
+	color: #ffffff;
+}
+.btn-rounded a span{
+	background: url(brown/btn-rounded.gif) no-repeat right;
+}
+.btn {
+	background:url(brown/btn.gif) repeat-x;
+	border:1px solid #cd802a;
+ 	color:#FFF;
+}
+
+/*=== Navigation ===*/
+/*- Nav1 -*/
+#nav1 li a{
+	color: #3f3f3f;
+}
+#nav1 li a:hover,
+#nav1 li.active a, #nav1 li.current_page_item a{
+	background: url(brown/btn-rounded.gif) no-repeat left;
+	color: #ffffff;
+}
+#nav1 li.active a span,
+#nav1 li.current_page_item a span,
+#nav1 li a:hover span{
+	background: url(brown/btn-rounded.gif) no-repeat right
+}
+
+/*- Nav2 -*/
+.nav2 li a, .widget li a{
+	color: #555555;
+}
+.nav2 li a:hover, .widget li a:hover{
+	color: #cd802a;
+}
+
+/*=== Right Column ===*/
+#rightcol h3, #rightcol h3 a{
+	color: #ffffff;
+}
+#rightcol h3 span{
+	background: #c5c1a3;
+}
+#rightcol .widget ul, #rightcol .textwidget 
+{
+	background: #e0decf;
+}
+
+/*=== Sub Columns ===*/
+.col1 a{
+	color: #555555;
+}
+.col3 h2{
+	color: #464646;
+}
+.col5 img{
+	border: 10px solid #f6f5ed;
+}
+
+/*=== Styling Boxes ===*/
+/*- Box1 -*/
+.box .top,.box .bot{
+	background: url(brown/box-top.gif) no-repeat top;
+}
+.box .bot{
+	background: url(brown/box-bot.gif) no-repeat top
+}
+.box .spacer{
+	background: #ffffff;
+}
+/*- Box2 -*/
+.box2 .top,.box2 .bot{
+	background: url(brown/box2-top.gif) no-repeat top;
+}
+.box2 .bot{
+	background: url(brown/box2-bot.gif) no-repeat top
+}
+.box2 .spacer{
+	background: #d6d4c1;
+}
+/*- Box3 -*/
+.box3 .top,.box3 .bot{
+	background: url(brown/box3-top.gif) no-repeat top;
+}
+.box3 .bot{
+	background: url(brown/box3-bot.gif) no-repeat top
+}
+.box3 .spcr{
+	background: #e0decf;
+}
+/*- Box4 -*/
+.box4{
+	color: #ffffff;
+}
+.box4 .top,.box4 .bot{
+	background: url(brown/box4-top.gif) no-repeat top;
+}
+.box4 .bot{
+	background: url(brown/box4-bot.gif) no-repeat top
+}
+.box4 .spacer{
+	background: #50473e;
+}
+/*- Box5 -*/
+.box5 .top,.box5 .bot{
+	background: url(brown/box5-top.gif) no-repeat top;
+}
+.box5 .bot{
+	background: url(brown/box5-bot.gif) no-repeat top
+}
+.box5 .spacer{
+	background: url(brown/box5-bgr.gif) repeat-y top;
+}
+/*- Box6 -*/
+.box6 .top,.box6 .bot{
+	background: url(brown/box6-top.gif) no-repeat top;
+}
+.box6 .bot{
+	background: url(brown/box6-bot.gif) no-repeat top
+}
+.box6 .spacer{
+	background: #d6d4c1;
+}
+
+/*- Date -*/
+.date{
+	color: #898989;
+}
+
+/*=== Styling Forms ===*/
+/*- Search -*/
+#search input.keyword{
+	background: #c5c1a3;
+	border-bottom: 1px solid #fcfcfa;
+	border-top: 1px solid #c4c2b5;
+	border-left: 1px solid #c4c2b5;
+}
+
+/*- Form1 Setup -*/
+.btn-general{
+	background: #cd802a;
+	color: #ffffff;	
+}
+.btn-general a { 
+	color: #ffffff;
+}
+.btn-arr a{
+	background: #c5c1a3;
+	color: #ffffff;
+}
+
+/*=== Footer ===*/
+#footer a{
+	color: #949387;
+}
+
+/*=== Posts ===*/
+.post img {	
+	border:8px solid #f6f5ed;
+}
+.post li a:hover{
+	color: #cd802a;
+}
+.post blockquote {
+	font-family:Georgia, "Times New Roman", Times, serif; color:#777777;
+	background:#eceadb url(brown/ico-quote.gif) no-repeat 10px 10px;
+	border-top:1px solid #d6d4c1;
+	border-bottom:1px solid #d6d4c1;	
+}
+
+/*=== Widget styling ===*/
+.widget #recentcomments li a{
+	color: #cd802a;
+}
+.widget #recentcomments li a:hover{
+	color: #cd802a;
+}
+.widget #searchform, .widget #calendar_wrap{
+	background: #e0decf;
+}
+.widget #wp-calendar caption {
+	color:#333333;
+}
+.widget #wp-calendar thead th {
+	color:#333333;
+}
+.widget #wp-calendar tfoot td a {
+	color:#333333;	
+}
+.quote {
+	background:url(brown/ico-quote.gif) no-repeat top left;
+}

@@ -1,0 +1,80 @@
+*** Over Easy Changelog ***
+
+2009.08.03 - version 2.0.3
+  * /includes/theme-functions.php - Added woo_show_menu
+  * header.php - change woo_show_pagemenu to woo_show_menu line 55 to fix page drop downs
+
+2009.07.28 - version 2.0.2
+  * /functions/ - Core framework upgrade to V.1.0.4
+  * /includes/theme-options.php - Added Custom CSS backend option
+  * /includes/theme-functions.php - Removed duplicate get_page_id() function
+
+2009.07.23 - version 2.0.1
+  * functions/admin-functions.php - Changed depth in wp_list_pages to allow sub pages / dropdowns
+
+2009.07.16 - version 2.0
+  * functions.php - New framework
+  * functions/* - New framework files
+  * includes/* - New framework files
+  * header.php - get_option('woo_addblog') == "true" (48) Fixed menu code (48-55)
+  * index.php - change is_active_sidebar (18)
+  * footer.php - change is_active_sidebar line (1)
+  * archive.php - get_option('woo_the_content') == "true" (21)
+  * style.css - #nav1 li ul li.cat-item a (797)
+
+2009.05.16 - version 1.2.6
+	* style.css - fixed styling on list items .nav2
+
+2009.03.18 - version 1.2.5
+	* style.css - fix IE7 dropdown bug - added width: 168px to #nav1 li ul
+	* functions/admin-options.php - Option to show categories instead of pages in navigation
+	  functions/admin-setup.php
+
+2009.02.17 - version 1.2.4
+	* style.css - fix IE7 dropdown bug - added html>body #nav1 li ul li { *margin-top:-2px; } 
+
+2009.02.17 - version 1.2.3
+	* index.php - change intro from p to span to fix IE7 dropdown bug
+	  style.css - changed p.intro to .intro
+
+2009.02.16 - version 1.2.2
+	* functions.php - added is_home to woothemes_add_javascript
+
+2009.02.11 - version 1.2.1
+	* header.php - fixed bug with using custom logo
+
+2009.02.10 - version 1.2
+	* style.css - Dropdown page menu (replace all #nav1)
+	  functions/admin-setup.php
+	  header.php - menu.js include
+	  includes/js/menu.js
+	* styles/brown/box2-top.gif - fixed from blue color
+	* header.php - moved javascript to functions.php function
+	  functions.php - javascript loaded in woothemes_add_javascript()
+
+2009.01.02 - version 1.1
+	* comments.php - Threaded comment support WP 2.7
+	  comments-legacy.php
+	  functions.php
+	  header.php ( wp_enqueue_script( 'comment-reply' ) )
+	  style.css ( line 692-> )
+
+2008.11.10 - version 1.0.4
+  * archive.php - fixed continue reading and div fix
+  
+2008.11.07 - version 1.0.3
+	style.css - removed missing divider.gif
+	styles/*.css
+
+2008.11.04 - version 1.0.2
+  * archive.php - changed the_date to the_time 
+    search.php
+	tag.php
+	single.php 
+  * header.php - fixed description
+
+2008.11.03 - version 1.0.1
+  * page-full.php - added div clear
+
+2008.10.30 - version 1.0
+  * First release!

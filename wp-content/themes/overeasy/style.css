@@ -1,0 +1,811 @@
+/*  
+Theme Name: Over Easy
+Theme URI: http://www.woothemes.com/
+Description: Over Easy by WooThemes
+Version: 2.0.3
+Author: WooThemes
+Author URI: http://www.woothemes.com/
+*/
+
+/*=== Setup ===*/
+*{
+	border: 0;
+	margin: 0;
+	padding: 0
+}
+body{
+	background: url(images/bgr.gif) #f0eee1 repeat-x top;
+	color: #555555;
+	font: .75em "Trebuchet MS", Arial, Helvetica;
+	padding: 0 0 20px;
+        padding-top: 5px;
+	line-height:1.8em;
+}
+a{
+	color: #a4b92e;
+	text-decoration: none
+}
+a:hover{
+	text-decoration: underline
+}
+input,select,textarea{
+	border: #e6e6e6 1px solid;
+	font-size: 12px;
+	padding: 2px
+}
+li{
+	list-style: none
+}
+h2{
+	color: #262625;
+	font-size: 1.8em;
+	letter-spacing: -1px;
+	margin: 0 0 .8em
+}
+h2 a{
+	color: #262625
+}
+h3{
+	color: #262625;
+	font-size: 1.6em;
+	margin: 0 0 1em
+}
+h4{
+	color: #444444;
+	font-size: 1em;
+	margin: 0 0 1em
+}
+p{
+	padding: 0 0 1.5em
+}
+/*=== Intro ===*/
+.intro {
+	line-height:1.3em;
+	z-index:0;
+}
+.intro a {
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+.intro a:hover {
+	color:#222222;
+	text-decoration:underline;
+}
+/*=== Layout ===*/
+#page{
+	margin: 0 auto;
+	width: 940px
+}
+/*=== Header ===*/
+#header{
+	height: 144px;
+	position:relative;
+}
+#header .spacer{
+	float: right
+}
+/*- Logo -*/
+#header h1{
+	float: left;
+	_width:414px;
+}
+#header h1 a{
+	display: block;
+	height: 144px;
+}
+#header h1 a:hover{
+	text-decoration: none
+}
+
+/*=== Buttons ===*/
+.btn-rounded{
+	line-height: 30px;
+	font-weight:bold;
+	float: left;
+}
+.btn-rounded a{
+	background: url(images/btn-rounded.gif) no-repeat left;
+	color: #ffffff;
+	padding: 0 0 0 13px;
+	display: block;
+	float: left;
+}
+.btn-rounded a span{
+	background: url(images/btn-rounded.gif) no-repeat right;
+	height: 30px;
+	padding: 0 13px 0 0;
+	display: block;
+	float: left;
+}
+
+.btn {
+	margin:0; 
+	padding:5px 10px;
+	background:url(images/btn.gif) repeat-x;
+	border:1px solid #98ac2b;
+ 	color:#FFFFFF;
+	font-weight:bold;
+}
+
+
+/*=== Navigation ===*/
+/*- Nav1 -*/
+
+/*=== Page Nav ( alternative with dropdowns) == */
+
+#nav1 {
+	font-size:16px;
+	font-weight:bold;
+	height:30px;
+	letter-spacing:-1px;
+	float:right;	
+	margin:43px 0 0;
+	text-transform:uppercase;
+}
+#nav1, #nav1 ul {
+	padding: 0;
+	list-style: none; 
+	line-height: 1;
+	z-index: 100;
+}
+
+#nav1 a {
+	display: block;
+	line-height: 30px;
+	padding: 0 10px;
+	z-index: 100;
+}
+
+#nav1 li {
+	float: left;
+	line-height: 30px;
+	margin: 0 4px 0 0;
+}
+#nav1 li a{
+	color: #3f3f3f;
+	padding: 0 0 0 13px;
+	text-decoration: none
+}
+#nav1 li a span{
+	display: inline-block;
+	height: 30px;
+	padding: 0 13px 0 0;
+}
+
+#nav1 li a:hover,
+#nav1 li.active a, 
+#nav1 li.current_page_parent a,
+#nav1 li.current_page_item a{
+	background: url(images/btn-rounded.gif) no-repeat left;
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#nav1 li.active a span,
+#nav1 li.current_page_parent a span,
+#nav1 li.current_page_item a span,
+#nav1 li a:hover span{
+	background: url(images/btn-rounded.gif) no-repeat right; 
+}
+
+
+/* Style drop down list */
+
+#nav1 li ul {
+	position: absolute;
+	left: -999em;
+	width: 168px;
+	font-weight:normal;
+	letter-spacing:0;
+	text-transform:none;
+}
+#nav1 li ul li {
+	border: 1px solid #F7F6F6;
+	border-width:0 1px 1px;
+	background: #FFF;
+	float: none;
+	width:210px;
+}
+
+#nav1 li.current_page_parent ul li a,
+#nav1 li.current_page_item ul li a{
+	background: #FFF;
+}
+
+#nav1 li ul li a:hover,
+#nav1 li ul li.active a, 
+#nav1 li ul li.current_page_parent a,
+#nav1 li ul li.current_page_item a{
+	background: #F6F6F6;
+}
+
+#nav1 li ul li.current_page_item a{
+	background: #EEEEEE;
+}
+#nav1 li ul li.current_page_item a:hover{
+	background: #F6F6F6;
+}
+
+#nav1 li ul li a span,
+#nav1 li ul li.active a span,
+#nav1 li ul li.current_page_item a span,
+#nav1 li ul li a:hover span {
+	background:none !important;
+	color: #000;
+}
+
+#nav1 li:hover ul, #nav1 li.sfhover ul {
+	left: auto;
+}
+
+#nav1 li ul li a span{
+	display:inline;
+	height: 30px;
+	padding: 0 13px 0 0
+}
+
+#nav1 li ul li a {
+	line-height: 30px;
+	font-size: 11px;
+	color: #555555;
+	width: 200px;
+}
+
+#nav1 li ul li ul li a {
+	border-width:0 1px 1px 0px;
+}
+#nav1 li ul ul {
+	margin: -31px 0 0 213px;
+}
+
+#nav1 li:hover ul ul, #nav1 li.sfhover ul ul {
+	left: -999em;
+}
+
+
+#nav1 li:hover ul, #nav1 li li:hover ul, #nav1 li.sfhover ul, #nav1 li li.sfhover ul {
+	left: auto;
+}
+
+/* IE7 Fix */
+
+#nav1 li:hover, #nav1 li.hover {  
+	position: static;
+	visibility:visible
+}
+
+html>body #nav1 li ul li { *margin-top:-2px; }
+
+/*- Nav2 -*/
+.nav2 li, .widget li{
+	background: url(images/ico-next.gif) no-repeat left 10px;
+	border-bottom:1px dotted #ccc;
+	padding: .5em 0 .5em 20px;
+	}
+.nav2 li a, .widget li a{
+	color: #555555;
+}
+.nav2 li a:hover, .widget li a:hover{
+	color: #a4b92e;
+	text-decoration: none
+}
+#rightcol .widget .textwidget ul { margin:0; padding:0; }
+
+/*=== All Columns ===*/
+#columns{
+	height: 1%;
+	padding: 0 0 10px
+}
+/*=== Center Column ===*/
+#centercol{
+	float: left;
+	width: 620px
+}
+/*=== Right Column ===*/
+#rightcol{
+	float: right;
+	margin: 20px 0 0;
+	width: 320px
+}
+#rightcol h3{
+	color: #ffffff;
+	font-size: 1em;
+	height: 2.4em;
+	margin-top:10px;
+}
+#rightcol h3 span{
+	background: #ceccbb;
+	display: block;
+	float: left;
+	line-height: 2.4em;
+	padding: 0 10px;
+}
+#rightcol .widget ul, #rightcol .textwidget {
+	background: #f0eee1;
+	height: 1%;
+	margin: 0 0 2em;
+	padding: 7px 15px 15px
+}
+
+/*=== Sub Columns ===*/
+.col1{
+	float: left;
+	width: 115px;
+	margin:0 0 1em;	
+}
+.col1 a{
+	color: #555555;
+	text-decoration: underline
+}
+.col2{
+	float: right;
+	width: 425px
+}
+.col3{
+	float: left;
+	padding: 0 35px 0 0;
+	width: 273px
+}
+.col3.last, .col6.last{
+	padding: 0
+}
+.col3.nav2, .col6.nav2{
+	background: none;
+	padding: 0
+}
+.col3 h2{
+	color: #464646;
+	margin: 0 0 .5em
+}
+.col3 p{
+	padding: 0
+}
+.col4{
+	float: left;
+	width: 335px
+}
+.col5{
+	float: right;
+	width: 415px
+}
+.col5 img{
+	border: 10px solid #f6f5ed;
+}
+.col6{
+	float: left;
+	padding: 0 20px 20px 0;
+	width: 300px
+}
+* html .col6{
+	width: 290px;
+}
+/*=== Styling Boxes ===*/
+/*- Box1 -*/
+.box{
+	margin: 0 0 1em;
+	width: 620px
+}
+.box .top,.box .bot{
+	background: url(images/box-top.gif) no-repeat top;
+	clear: both;
+	height: 10px;
+	overflow: hidden
+}
+.box .bot{
+	background: url(images/box-bot.gif) no-repeat top
+}
+.box .spacer{
+	background: #ffffff;
+	height: 1%;
+	padding: 15px 30px
+}
+/*- Box2 -*/
+.box2{
+	margin: 20px 0 1em;
+	width: 320px
+}
+.box2 .top,.box2 .bot{
+	background: url(images/box2-top.gif) no-repeat top;
+	clear: both;
+	height: 10px;
+	overflow: hidden
+}
+.box2 .bot{
+	background: url(images/box2-bot.gif) no-repeat top
+}
+.box2 .spacer{
+	background: #e5e3d1;
+	height: 1%;
+	padding: 10px 25px
+}
+/*- Box3 -*/
+.box3{
+	margin: 0 0 1em;
+	width: 425px
+}
+.box3 .top,.box3 .bot{
+	background: url(images/box3-top.gif) no-repeat top;
+	clear: both;
+	height: 10px;
+	overflow: hidden
+}
+.box3 .bot{
+	background: url(images/box3-bot.gif) no-repeat top
+}
+.box3 .spcr{
+	background: #f0eee1;
+	height: 1%;
+	padding: 0 20px;
+	min-height:100px;
+}
+.box3 p{
+	padding: 0
+}
+/*- Box4 -*/
+.box4{
+	color: #ffffff;
+	font-size: 1.8em;
+	margin: 0 0 20px;
+	width: 940px
+}
+.box4 .top,.box4 .bot{
+	background: url(images/box4-top.gif) no-repeat top;
+	clear: both;
+	height: 10px;
+	overflow: hidden
+}
+.box4 .bot{
+	background: url(images/box4-bot.gif) no-repeat top
+}
+.box4 .spacer{
+	background: #b0c730;
+	height: 1%;
+	padding: 5px 25px
+}
+.box4 p{
+	padding: 0
+}
+/*- Box5 -*/
+.box5{
+	margin: 0 0 30px;
+	width: 940px
+}
+.box5 .top,.box5 .bot{
+	background: url(images/box5-top.gif) no-repeat top;
+	clear: both;
+	height: 10px;
+	overflow: hidden
+}
+.box5 .bot{
+	background: url(images/box5-bot.gif) no-repeat top
+}
+.box5 .spacer{
+	background: url(images/box5-bgr.gif) repeat-y top;
+	height: 1%;
+	padding: 15px 25px
+}
+.box5 .post img {
+	border:0;
+}
+/*- Box6 -*/
+.box6{
+	margin: 0 0 20px;
+	width: 940px
+}
+.box6 .top,.box6 .bot{
+	background: url(images/box6-top.gif) no-repeat top;
+	clear: both;
+	height: 10px;
+	overflow: hidden
+}
+.box6 .bot{
+	background: url(images/box6-bot.gif) no-repeat top
+}
+.box6 .spacer{
+	background: #e5e3d1;
+	height: 1%;
+	padding: 10px 25px
+}
+#footer .box6 .spacer{
+	padding: 0px 25px
+}
+
+/*- Wrapper -*/
+.wrapper{
+	float: left;
+	padding: 0 0 0 20px;
+}
+/*- Date -*/
+.date{
+	color: #898989;
+	margin: -15px 0 10px;
+	position: relative
+}
+/*=== Styling Forms ===*/
+/*- Search -*/
+#search{
+	height: 32px;
+	margin: 0px;
+	padding: 0 0 0 25px
+}
+#search input.keyword{
+	background: #d5d3c4;
+	border-bottom: 1px solid #fcfcfa;
+	border-top: 1px solid #c4c2b5;
+	border-left: 1px solid #c4c2b5;
+	color: #ffffff;
+	float: left;
+	font-size: 11px;
+	padding: 7px 5px 8px;
+	width: 190px
+}
+	
+/*- Form1 Setup -*/
+.form1 div{
+	margin: 0 0 15px
+}
+.form1 label{
+	padding: 7px 0 0 15px
+}
+
+/* Form1 Textarea */
+.form1 textarea{
+	height: 165px;
+	overflow: auto;
+	width: 550px
+}
+/*=== Link Buttons ===*/
+.btn-cat {
+	margin: 1em 0 1.5em;
+}
+.btn-continue{
+	margin: 0 0 2em;
+}
+.btn-general{
+	background: #a4b92e;
+	padding: 5px 10px;
+	color: #ffffff;	
+}
+.btn-general a { 
+	color: #ffffff;
+}
+.btn-continue a{
+	background: url(images/ico-more2.gif) no-repeat left;
+	padding: 0 0 0 20px
+}
+.btn-arr a{
+	background: #bdbbac;
+	color: #ffffff;
+	line-height: 25px;
+	padding: 5px 10px
+}
+.btn-arr2{
+	float: left;
+	padding: 130px 0 0;
+	width: 27px
+}
+/*=== Pics, Ads etc. ===*/
+.ads{
+	margin: 0 0 10px
+}
+.ads img{
+	margin: 0 8px 5px 0
+}
+/*=== Footer ===*/
+#footer a{
+	color: #949387;
+	text-decoration: underline
+}
+#footer img{
+	position: relative;
+	vertical-align:middle
+}
+/*=== Misc. ===*/
+.fix{
+	clear: both;
+	height: 1px;
+	margin: -1px 0 0;
+	overflow: hidden
+}
+.fl{
+	float: left
+}
+.fr{
+	float: right
+}
+.ac{
+	text-align: center
+}
+.ar{
+	text-align: right
+}
+img.centered{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.alignright{
+padding: 4px;
+margin: 3px 0 2px 10px;
+display: inline;
+}
+
+img.alignleft{
+padding: 4px;
+margin: 3px 10px 2px 0;
+display: inline;
+}
+
+.alignleft{
+float: left;
+}
+
+.alignright{
+float: right;
+}
+
+/*=== Posts ===*/
+
+.post img {	
+	border:8px solid #f6f5ed;
+}
+.post ul, .post ol{
+	padding: 0 0 1.2em 2em;
+}
+.post ul li{
+	color: #555555;
+	background: url(images/ico-bullet.gif) no-repeat left top;
+	padding: 0 0 0 20px;
+}
+.post ol li{
+	list-style-type:decimal;
+	margin: 0 0 0 20px;
+}	
+.post li a:hover{
+	color: #a4b92e;
+	text-decoration: none
+}
+
+.post blockquote {
+	font-family:Georgia, "Times New Roman", Times, serif; color:#777777;
+	background:#F0EEE1 url(images/ico-quote.gif) no-repeat 10px 10px;
+	border-top:1px solid #E5E3D1;
+	border-bottom:1px solid #E5E3D1;	
+	width:80%; height:auto;
+	margin:0 0 15px 10px; padding:15px 25px 0px 55px;
+	display:block;
+}
+
+/*=== Comments ===*/
+
+#comments .box3 p { padding-bottom:10px; }
+#respond { margin: 1em 0 0; }
+
+/*=== Widget styling ===*/
+
+.widget #recentcomments li{
+	background: url(images/hl-dot.gif) repeat-x bottom;
+	padding: .5em 0
+}
+.widget #recentcomments li a{
+	background:none;
+	color: #a4b92e;
+	text-decoration:none;
+}
+.widget #recentcomments li a:hover{
+	color: #a4b92e;
+	text-decoration: underline;
+}
+
+.widget #searchform, .widget #calendar_wrap{
+	background: #f0eee1;
+	height: 1%;
+	margin: 0 0 2em;
+	padding: 7px 15px 15px
+}
+
+.widget #searchform, .widget #calendar_wrap{
+	clear: both;
+	height: 1%;
+	margin: 0 0 14px;
+}
+
+.widget #wp-calendar caption {
+	font-size:1.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	margin-bottom:5px;
+	color:#333333;
+}
+
+.widget #wp-calendar {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:240px;
+}
+
+.widget #wp-calendar thead th {
+	color:#333333;
+}
+
+
+.widget #wp-calendar tfoot td {
+	padding:10px 0 10px 0;
+	text-align:left;
+}
+
+.widget #wp-calendar tfoot td#next {
+	text-align:right;
+}
+
+.widget #wp-calendar td {
+	width:auto;			
+}
+
+.widget #wp-calendar td a {
+	padding:2px;
+	text-decoration:underline;
+}
+
+.widget #wp-calendar tfoot td a {
+	color:#333333;	
+}
+.quote {
+	background:url(images/ico-quote.gif) no-repeat top left;
+	margin:9px 0 0;
+	width:37px;
+	height:29px;
+}
+.flickr_badge_image img{
+	margin: 0 3px 8px;
+	padding: 0 7px 5px 0;
+	float:left;
+}
+.flickr img{
+	vertical-align:middle;
+	margin:6px 0 8px;	
+}
+.subscribe img{
+	vertical-align:middle;
+	margin:6px 0 8px;	
+}
+
+/*=== Slider ===*/
+
+.stepcarousel{
+position: relative; /*leave this value alone*/
+overflow: scroll; /*leave this value alone*/
+width: 795px;
+height: 300px; /*Height should enough to fit largest content's height*/
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 15px; /*margin around each panel*/
+width: 770px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+/*=== THREADED COMMENTS == */
+
+ol.commentlist li.threaded .box3 { width:auto; margin:0px; }
+ol.commentlist li.threaded .col1 { width:90px; }
+ol.commentlist li.threaded .box3 .spcr { padding:10px 15px 0; margin:0; }
+ol.commentlist li.threaded .children { margin-left:20px; }
+ol.commentlist li.threaded .col2 { float:none; width:auto; margin-left:115px; }
+
+/* Fixes 2.0 */
+#nav1 li ul li.cat-item a { color:#555; }

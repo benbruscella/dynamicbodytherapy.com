@@ -1,0 +1,263 @@
+/*
+=== darkgreen ===
+bg: #1e1d1c
+links: #879b17
+intro: #879b17
+footer: #33322f
+titles: #33322f
+widgets: #33322f
+border: #1e1d1c
+
+body: #d7d7d7
+menu: #bfbfbf
+h: #262625
+*/
+
+/*=== Setup ===*/
+body{
+	background: url(darkgreen/bgr.gif) #1e1d1c repeat-x top;
+	color: #d7d7d7;
+}
+a{
+	color: #879b17;
+}
+input,select,textarea{
+	border: #e6e6e6 1px solid;
+}
+h2{
+	color: #f2f2ee;
+}
+h2 a{
+	color: #f2f2ee
+}
+h3{
+	color: #f2f2ee;
+}
+h4{
+	color: #f2f2ee;
+}
+
+.box, .box5 {
+	color:#555555;
+}
+.box h2, .box5 h2{
+	color: #262625;
+}
+.box h2 a, .box5 h2 a{
+	color: #262625
+}
+.box h3, .box5 h3{
+	color: #262625;
+}
+.box h4, .box5 h4{
+	color: #444444;
+}
+
+/*=== Intro ===*/
+p.intro a {
+	color:#FFFFFF;
+}
+p.intro a:hover {
+	color:#222222;
+}
+
+/*=== Buttons ===*/
+
+.btn-rounded a{
+	background: url(darkgreen/btn-rounded.gif) no-repeat left;
+	color: #ffffff;
+}
+.btn-rounded a span{
+	background: url(darkgreen/btn-rounded.gif) no-repeat right;
+}
+.btn {
+	background:url(darkgreen/btn.gif) repeat-x;
+	border:1px solid #879b17;
+ 	color:#FFF;
+}
+
+/*=== Navigation ===*/
+/*- Nav1 -*/
+#nav1 li a{
+	color: #bfbfbf;
+}
+#nav1 li a:hover,
+#nav1 li.active a, #nav1 li.current_page_item a{
+	background: url(darkgreen/btn-rounded.gif) no-repeat left;
+	color: #ffffff;
+}
+#nav1 li.active a span,
+#nav1 li.current_page_item a span,
+#nav1 li a:hover span{
+	background: url(darkgreen/btn-rounded.gif) no-repeat right
+}
+
+/*- Nav2 -*/
+.nav2 li a, .widget li a{
+	color: #d7d7d7;
+}
+.nav2 li a:hover, .widget li a:hover{
+	color: #879B17;
+}
+
+/*=== Right Column ===*/
+#rightcol h3, #rightcol h3 a{
+	color: #ffffff;
+}
+#rightcol h3 span{
+	background: #2a2927;
+}
+#rightcol .widget ul, #rightcol .textwidget 
+{
+	background: #3c3b38;
+}
+
+/*=== Sub Columns ===*/
+.col1 a{
+	color: #d7d7d7;
+}
+.col3 h2{
+	color: #464646;
+}
+.col5 img{
+	border: 10px solid #f6f5ed;
+}
+
+/*=== Styling Boxes ===*/
+/*- Box1 -*/
+.box .top,.box .bot{
+	background: url(darkgreen/box-top.gif) no-repeat top;
+}
+.box .bot{
+	background: url(darkgreen/box-bot.gif) no-repeat top
+}
+.box .spacer{
+	background: #ffffff;
+}
+/*- Box2 -*/
+.box2 .top,.box2 .bot{
+	background: url(darkgreen/box2-top.gif) no-repeat top;
+}
+.box2 .bot{
+	background: url(darkgreen/box2-bot.gif) no-repeat top
+}
+.box2 .spacer{
+	background: #33322f;
+}
+/*- Box3 -*/
+.box3 .top,.box3 .bot{
+	background: #e9edf0;
+}
+.box3 .spcr{
+	background: #e9edf0;
+}
+/*- Box4 -*/
+.box4{
+	color: #ffffff;
+}
+.box4 .top,.box4 .bot{
+	background: url(darkgreen/box4-top.gif) no-repeat top;
+}
+.box4 .bot{
+	background: url(darkgreen/box4-bot.gif) no-repeat top
+}
+.box4 .spacer{
+	background: #879b17;
+}
+/*- Box5 -*/
+.box5 .top,.box5 .bot{
+	background: url(darkgreen/box5-top.gif) no-repeat top;
+}
+.box5 .bot{
+	background: url(darkgreen/box5-bot.gif) no-repeat top
+}
+.box5 .spacer{
+	background: url(darkgreen/box5-bgr.gif) repeat-y top;
+}
+/*- Box6 -*/
+.box6 .top,.box6 .bot{
+	background: url(darkgreen/box6-top.gif) no-repeat top;
+}
+.box6 .bot{
+	background: url(darkgreen/box6-bot.gif) no-repeat top
+}
+.box6 .spacer{
+	background: #33322f;
+}
+
+/*- Date -*/
+.date{
+	color: #898989;
+}
+
+/*=== Styling Forms ===*/
+/*- Search -*/
+#search input.keyword{
+	background: #33322f;
+	border-bottom: 1px solid #3c3b38;
+	border-right: 1px solid #3c3b38;
+	border-top: 1px solid #1e1d1c;
+	border-left: 1px solid #1e1d1c;
+}
+
+/*- Form1 Setup -*/
+.btn-general{
+	background: #879b17;
+	color: #ffffff;	
+}
+.btn-general a { 
+	color: #ffffff;
+}
+.btn-arr a{
+	background: #33322f;
+	color: #ffffff;
+}
+
+/*=== Footer ===*/
+#footer a{
+	color: #949387;
+}
+
+/*=== Posts ===*/
+.post img {	
+	border:8px solid #f6f5ed;
+}
+.post li a:hover{
+	color: #879b17;
+}
+.post blockquote {
+	font-family:Georgia, "Times New Roman", Times, serif; color:#777777;
+	background:#f9faf4 url(darkgreen/ico-quote-grey.gif) no-repeat 10px 10px;
+	border-top:1px solid #e4e4e0;
+	border-bottom:1px solid #e4e4e0;	
+}
+
+/*=== Widget styling ===*/
+.widget #recentcomments li a{
+	color: #879b17;
+}
+.widget #recentcomments li a:hover{
+	color: #879b17;
+}
+.widget #searchform, .widget #calendar_wrap{
+	background: #33322f;
+}
+.widget #wp-calendar caption {
+	color:#333333;
+}
+.widget #wp-calendar thead th {
+	color:#333333;
+}
+.widget #wp-calendar tfoot td a {
+	color:#333333;	
+}
+.quote {
+	background:url(darkgreen/ico-quote.gif) no-repeat top left;
+}
+.widget #recentcomments li{
+	background: url(darkgreen/hl-dot.gif) repeat-x bottom;
+}
+.nav2 li, .widget li{
+	background: url(darkgreen/hl-dot.gif) repeat-x bottom;
+}
+
